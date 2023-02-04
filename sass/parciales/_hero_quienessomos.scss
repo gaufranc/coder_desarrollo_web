@@ -11,6 +11,8 @@ padding: 30px;
 
     &--texto{
         padding: 0rem 2rem;
-        width: 30rem;
+        // cambiamos a 75% para que ocupe el 75% del contenedor 
+        // esto fixea el problema de que la pantalla de quienes somos tenga un scroll horizontal en ciertas resoluciones
+        width: 75%;
     }
 }

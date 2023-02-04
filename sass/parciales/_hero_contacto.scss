@@ -2,8 +2,13 @@
     background-color: #0B610B;
     padding: 60px 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    // Flex-wrap: permite que los elementos se ajusten a la pantalla - solo aplicable cuando el contenedor es flex
+    // esto te va a evitar que queden pegados los elementos cuando lo veas del celular
+    flex-wrap: wrap;
+    // Gap: espacio entre elementos - solo aplicable cuando el contenedor es flex
+    gap: 25px;
 
     &--img{
         width: 400px;
